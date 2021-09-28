@@ -1,0 +1,149 @@
+
+
+body{background-color:  #8ba1bb;
+    font-family: arial;
+    
+
+    }
+
+    p.categorie
+    {
+        text-align: center;
+        background-color: black;
+        color: white;
+        display: inline-block;
+        padding: 8px 20px 8px 20px;
+        margin-bottom: 0px;
+        font-weight: bold;
+        font-size: 24px;
+        margin-top: -15px;
+    }
+
+    div.contenu
+    {
+       background-color: white; 
+       margin: 60px 10% 50px 10%;
+       padding: 0px 30px 30px 30px;
+       min-width: 350px;
+       box-shadow: rgb(0,0,0,0.2) 0px 0px 10px 10px;
+       overflow: visible;
+    }
+    h1{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    p.description{
+        text-align: center;
+        max-width: 400px;
+        font-size: 14px;
+        display: inline-block;
+    }
+    .centre{
+        text-align: center;
+        width: 100%;
+    }
+    div.categorie{
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    div.separateur{
+        
+        background-color: black;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100px;
+        height: 1px;
+    }
+    div.info{
+        position: relative;
+    }
+    table.info{
+        position:absolute; 
+        background-color: steelblue;
+        bottom:0; 
+        width:100%; 
+        color:white;
+        opacity: 69%; 
+        height: 80px;
+        
+    }
+    table.info td{
+        font-size: 14px;
+        text-align: center;
+        vertical-align: top;
+    }
+    table.info th{
+        font-size: 16px;
+        vertical-align: bottom;
+        padding-bottom: 4px;
+    }
+    img.info{
+        display: block;
+        max-height: 400px;
+        object-fit: cover;
+        min-height: 200px;
+        background-color: lightgray;
+    }
+    div.colonne {
+        width:45%;
+        margin-top: 20px;
+    }
+
+    div.colonne h2{
+        text-align: center;
+        text-transform: uppercase;
+        border-bottom: 5px solid steelblue;
+        padding-bottom: 5px;
+        
+    }
+    div.colonne1{
+        
+        display: inline-block;
+        margin-right: 10%;
+    }
+
+    div.colonne2{
+        
+        float: right;
+        
+    }
+
+    div.ingredients p{
+        border: 1px lightgray solid;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 4px;
+        margin-top: 4px;
+        font-size: 14px;
+    }
+
+    table.preparation p.numero{
+        background-color: steelblue;
+        color:white;
+        text-align: center;
+        width:25px;
+        height:25px;
+        font-size: 14px;
+        font-weight: bold;
+        box-sizing: border-box;
+        padding-top:4px;
+        border-radius: 50%;
+        margin:0;
+
+    }
+    table.preparation td{
+        vertical-align: top;
+    }
+
+    table.preparation td.preparation_etape{
+        vertical-align: top;
+        font-size: 14px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
+    table.preparation tr{
+        height: 30px;
+    }
+
+ 
